@@ -1,0 +1,17 @@
+waterfall: 변경 사항 수용이 어렵다. 요구 사항을 잘 이해하고 있는 경우에만 적합하다.
+병렬적 개발 방법론
+프로토타이핑: 고객과 협력, 수정/보완/확장 (throwaway: 시스템의 요구사항을 확인하기 위해 던져놓고 파악이 되면 waterfall로 전환)
+incremental: 우선 순위가 높은 기능을 먼저 개발. 고객이 시스템을 빨리 사용할 수 있다. 요구 사항을 더 잘 전달받을 수 있다. 하지만 문서 작업의 오버헤드가 클 수 있고 시스템 구조가 점점 나빠질 수 있다.
+unified process: 시스템의 특성에 맞게 수정해서 적용한다.
+agile: 문서 오버헤드 최소화. 단순하고 반복적인 개발 강조. (5 principles of agile: customer involvement, incremental delivery, people not process, embrace change, maintain simplicity)
+XP: extreme programming의 약어로 agile 개발의 한 종류이다. tdd, pp가 중요한 요소
+
+요구사항 분석
+- not about how but about what (how는 설계 단계에서 정의됨)
+- process: elicitation -> specification -> analysis
+- component: requirements: functional, non-functional, domain(usually omitted during interview)
+- 작성법: natural language, structured natural language, graphical notations, mathematical specifications
+
+Use Case
+- 포함 관계, 확장 관계
+- 모델링 5 단계

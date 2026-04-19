@@ -1,0 +1,17 @@
+overview
+- system request: list of project's key elements
+- preliminary project acceptance
+- feasibility analysis: technical, economic(4 steps, npv, bep, roi), organizational(strategic, stakeholder)
+- project selection: portfolio management
+- project management: 4 steps(identify size, workplan, staffing, coordinating)
+
+project estimation
+- function point: tufp, pc, apc, tafp, loc, cocomo(person months), schedule time
+- use case: not on exam (skip)
+
+workplan
+- task name, duration, status, dependencies, milestone
+- tracking: gantt chart, pert chart
+- hurricane model
+- actions
+- managing scope: scope creep
