@@ -1,0 +1,11 @@
+advantages of explicit architecture: stakeholder communication, system analysis, large scale reuse
+- mvc pattern: 데이터와 표현체가 서로 독립적으로 표현될 수 있지만, 작은 규모의 서비스에는 불필요한 복잡도 증가를 야기할 수 있다.
+- layered architecture: 인터페이스만 유지된다면 전체 계층의 수정이 가능하다. 하지만 실무에서는 계층의 구조가 명확하지 않으므로 여러 계층을 거치는 통신들이 일어날 수 있고 이는 성능의 저하로 이어진다.
+- repository architecture: 공유 데이터가 중앙 데이터베이스에만 저장된다. 컴포넌트들간의 독립성이 보장되고 데이터의 일관성 유지가 쉽다. 다만 단일 서버의 문제가 전체 시스템의 장애를 일으킬 수 있으며 분산 컴퓨팅 설계가 어렵다는 단점이 있다.
+- client server pattern: 분산 서버 구성이 가능하고 특정 기능을 여러 서비스에 동시 적용이 가능하다. 하지만 네트워크의 상태에 따라 서버 성능이 예측 불가능해질 수 있고 특정 서버의 다운이 전체 시스템에 장애를 일으킬 수 있다는 문제가 있다.
+- pipe and filter architecture: 시스템 이해와 수정이 쉽다. 순차/병렬 구조로 구현이 가능하다. 하지만 데이터 통신을 위해 형식을 맞춰야하고 이 과정에서 성능 오버헤드가 발생할 수 있다.
+
+application architectures
+- transaction processing systems
+- language processing systems
+- information systems: layers(user interface, user communication, information retrieval, system database)

@@ -1,0 +1,22 @@
+relationships in UML
+- generalization: 상속 관계 정의(is_a, a_kind_of). complete partition
+- aggregation: 특정 부분의 구성 관계를 정의. composition and aggregation
+- association: 가장 보편적이고 다양한 관계 정의. aggregation과 비슷하지만 더 약한 형태.
+- dependency
+- contraints
+- interface
+- stereotype
+
+객체 식별 및 구조적 모델링 단계
+1. 유스케이스 텍스트 분석을 통한 CRC(Class-Responsibility-Collaborator) 카드 생성
+2. 공통 객체 리스트 접근법을 활용한 브레인스토밍
+3. CRC 카드를 활용한 유스케이스 역할극(Role-play)
+4. CRC 카드 기반의 클래스 다이어그램 생성
+5. 구조적 모델 검토
+6. 유용한 패턴 도입
+7. 최종 구조적 모델 검토
+
+three class types in UP (stereotypes)
+- entity: long lived information
+- boundary: interaction between information system and its actors (input/output)
+- control: complex computations and algorithms
