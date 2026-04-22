@@ -9,7 +9,7 @@ XP: extreme programming의 약어로 agile 개발의 한 종류이다. tdd, pp�
 요구사항 분석
 - not about how but about what (how는 설계 단계에서 정의됨)
 - process: elicitation -> specification -> analysis
-- component: requirements: functional, non-functional, domain(usually omitted during interview)
+- component(requirements): functional, non-functional, domain(usually omitted during interview)
 - 작성법: natural language, structured natural language, graphical notations, mathematical specifications
 
 Use Case
